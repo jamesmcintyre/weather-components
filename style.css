@@ -8,6 +8,10 @@
   color: white;
 }
 
+#weatherpanel {
+  padding: 0;
+}
+
 input[type='number'] {
     -moz-appearance:textfield;
 }
