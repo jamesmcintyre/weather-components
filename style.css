@@ -1,0 +1,28 @@
+
+
+#test1{
+  height: 100%;
+  width: 100%;
+  font-size: 18pt;
+  padding-right: 0px;
+  color: white;
+}
+
+.card {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#todayweather {
+  line-height: 189px;
+  float: right;
+  margin-right: 24%;
+}
+
+#top-spacer{
+  height: 10vh;;
+}
+
+.weather-thumb {
+  height: 200px;
+  background-color: #00BBFF ;
+}
