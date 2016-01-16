@@ -12,8 +12,6 @@
   <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
-
   <div class="container">
 
     <div class="row" id="top-spacer"></div>
@@ -22,29 +20,21 @@
         <div id="weatherpanel" class="col-md-6 col-md-offset-3">
 
           <div class="card animated bounceInUp">
-            <div class="card-img-top weather-thumb">
-              <div id="test1">
-              <div class="sunny"></div>
-              <div id="todayweather">78 and Sunny</div>
+            <div class="card-img-top" id="weather-thumb">
+              <div id="topweather">
+              <div id="weathericon" class=""></div>
+              <div id="weatherdesc">56 F and Overcast</div>
               </div>
             </div>
             <div class="card-block">
-              <h4 class="card-title">Weather in Fremont, CA</h4>
-              <p class="card-text">Looks like the weather is just fucking fantasic in your area, what'dya think? Fuck yea right?.</p>
+              <h4 class="card-title" id="whereat"></h4>
+              <p class="card-text" id="snippet"></p>
             </div>
 
-
-
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Wind ENE 2 mph</li>
-              <li class="list-group-item">Humidity  73%</li>
-              <li class="list-group-item">Dew Point 46°F</li>
-              <li class="list-group-item">Pressure 30.14in</li>
-              <li class="list-group-item">Visibility 10.0 mi</li>
-              <li class="list-group-item">UV Index 0 out of 10</li>
+            <ul class="list-group list-group-flush" id="details-list">
             </ul>
             <div class="card-block">
-              <input type="text" class="form-control" placeholder="Change location...">
+              <input type="number" id="zip" class="form-control" placeholder="Change by Zip Code...">
 
             </div>
           </div>

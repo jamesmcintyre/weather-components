@@ -1,28 +1,41 @@
 
 
-#test1{
+#topweather{
   height: 100%;
   width: 100%;
-  font-size: 18pt;
+  font-size: 15pt;
   padding-right: 0px;
   color: white;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 .card {
   font-family: 'Noto Sans', sans-serif;
 }
 
-#todayweather {
+.list-group-item {
+  text-align: center !important;
+}
+
+#weatherdesc {
   line-height: 189px;
   float: right;
-  margin-right: 24%;
+  margin-right: 9%;
 }
 
 #top-spacer{
   height: 10vh;;
 }
 
-.weather-thumb {
+#weather-thumb {
   height: 200px;
-  background-color: #00BBFF ;
+  background-color: #E4E4E4 ;
 }
